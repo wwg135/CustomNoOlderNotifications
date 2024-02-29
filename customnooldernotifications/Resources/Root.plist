@@ -8,7 +8,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>Tweak</string>
+			<string>插件</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -20,7 +20,7 @@
 			<key>key</key>
 			<string>enabled</string>
 			<key>label</key>
-			<string>Enabled</string>
+			<string>启用</string>
 			<key>PostNotification</key>
 			<string>com.kome1.customnooldernotifications/ReloadPrefs</string>
 		</dict>
@@ -28,7 +28,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>Customize</string>
+			<string>自定义</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -38,7 +38,7 @@
 			<key>key</key>
 			<string>labeltext</string>
 			<key>placeholder</key>
-			<string>No Older Notifications</string>
+			<string>没有更早的通知</string>
 			<key>PostNotification</key>
 			<string>com.kome1.customnooldernotifications/ReloadPrefs</string>
 		</dict>
@@ -59,7 +59,7 @@
 			<key>key</key>
 			<string>labelcolor</string>
 			<key>label</key>
-			<string>Label Color</string>
+			<string>标签颜色</string>
 			<key>PostNotification</key>
 			<string>com.kome1.customnooldernotifications/ReloadPrefs</string>
 		</dict>
@@ -73,7 +73,7 @@
 			<key>key</key>
 			<string>hidelabeltext</string>
 			<key>label</key>
-			<string>Hide No Older Notifications</string>
+			<string>隐藏没有更早的通知</string>
 			<key>PostNotification</key>
 			<string>com.kome1.customnooldernotifications/ReloadPrefs</string>
 		</dict>
@@ -81,7 +81,7 @@
 			<key>cell</key>
 			<string>PSButtonCell</string>
 			<key>label</key>
-			<string>Respring</string>
+			<string>注销</string>
 			<key>action</key>
 			<string>respring</string>
 		</dict>
@@ -91,7 +91,7 @@
 			<key>footerAlignment</key>
 			<string>1</string>
 			<key>footerText</key>
-			<string>©kome1 2023 - CustomNoOlderNotifications</string>
+			<string>©kome1 2024 - CustomNoOlderNotifications</string>
 		</dict>
 	</array>
 	<key>title</key>
