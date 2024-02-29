@@ -1,9 +1,9 @@
-Package: com.kome1.customnons
+Package: com.wwg135.customnons
 Name: CustomNoOlderNotifications
-Version: 0.0.1
+Version: 1.0.0
 Architecture: iphoneos-arm
-Description: Customize "No Older Notifications" text
+Description: 自定义 "没有更早的通知" 文本
 Maintainer: kome1
-Author: kome1
+Author: M哥
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.spark.libsparkcolourpicker
