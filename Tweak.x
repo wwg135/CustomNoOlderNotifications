@@ -17,11 +17,11 @@ UIColor *labelColor;
 BOOL hideLabelText = NO;
 
 static void loadPrefs() {
-	NSMutableDictionary *settings = [[NSMutableDictionary alloc] initWithContentsOfFile:ROOT_PATH_NS(@"/var/mobile/Library/Preferences/com.kome1.customnooldernotifications.plist")];
-	enabled = [[settings objectForKey:@"enabled"] boolValue] ? [[settings objectForKey:@"enabled"] boolValue] : NO;
+    NSMutableDictionary *settings = [[NSMutableDictionary alloc] initWithContentsOfFile:ROOT_PATH_NS(@"/var/mobile/Library/Preferences/com.kome1.customnooldernotifications.plist")];
+    enabled = [[settings objectForKey:@"enabled"] boolValue] ? [[settings objectForKey:@"enabled"] boolValue] : NO;
     hideLabelText = [[settings objectForKey:@"hidelabeltext"] boolValue] ? [[settings objectForKey:@"hidelabeltext"] boolValue] : NO;
     labelText = [settings objectForKey:@"labeltext"];
-	labelColor = [SparkColourPickerUtils colourWithString:[settings objectForKey:@"labelcolor"] withFallback:@"#ffffff"];
+    labelColor = [SparkColourPickerUtils colourWithString:[settings objectForKey:@"labelcolor"] withFallback:@"#ffffff"];
 }
 
 %group Tweak
