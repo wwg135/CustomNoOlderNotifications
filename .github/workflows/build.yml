@@ -1,7 +1,17 @@
-# https://github.com/vendetta-mod/VendettaTweak/blob/main/.github/workflows/build.yml
-name: Build
+name: build pacage
 
-on: [push]
+on:
+  push:
+    branches:
+      - '*'
+    paths-ignore:
+      - ".gitignore"
+  pull_request:
+    branches:
+      - '*'
+    paths-ignore:
+      - ".gitignore"
+  workflow_dispatch:
 
 jobs:
   build:
